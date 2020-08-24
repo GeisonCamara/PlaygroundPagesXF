@@ -133,4 +133,13 @@
       <Name>PlaygroundPages</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo_xamarin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\play.png" />
+  </ItemGroup>
 </Project>

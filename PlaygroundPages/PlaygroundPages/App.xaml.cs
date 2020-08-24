@@ -10,7 +10,9 @@ namespace PlaygroundPages
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+
+            MainPage = new PlaygroundPages.Pages.Carousel.CarouselView();
         }
 
         protected override void OnStart()
