@@ -8,7 +8,7 @@
             <Label Text="Slide 3" TextColor="#95c1e5"
                 HorizontalOptions="CenterAndExpand" />
 
-            <Button Image="play.png" BackgroundColor="transparent" BorderColor="Transparent" />
+            <Button Image="play.png" BackgroundColor="transparent" BorderColor="Transparent" Clicked="GoToFirstPage" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage> 

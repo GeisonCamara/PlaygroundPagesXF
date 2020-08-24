@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlaygroundPages.Pages.Navigation.FirstPage"
+             Title="I'm a title First Page">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Alterar Senha" />
+        <ToolbarItem Text="Configurações" />
+        <ToolbarItem Text="Mais Opções" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="I'm a FirstPage"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Go to the Secound Page" Clicked="GoToSecoundPage" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -7,19 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PlaygroundPages.Pages.Carousel
+namespace PlaygroundPages.Pages.Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Step3 : ContentPage
+    public partial class Header : ContentPage
     {
-        public Step3()
+        public Header()
         {
             InitializeComponent();
-        }
-
-        private void GoToFirstPage(object sender, EventArgs args)
-        {
-            App.Current.MainPage = new NavigationPage(new Navigation.FirstPage());
         }
     }
 }
