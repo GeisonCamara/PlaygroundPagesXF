@@ -14,8 +14,9 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Button Text="Go to the Secound Page" Clicked="GoToSecoundPage" />
+            <Button Text="Go to the Secound Page" Clicked="OpenSecoundPage" />
             <Button Text="Open a Modal" Clicked="OpenModal" />
+            <Button Text="Open a Master Detail" Clicked="OpenMasterDetail" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

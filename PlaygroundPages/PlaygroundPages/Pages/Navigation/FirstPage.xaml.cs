@@ -17,7 +17,7 @@ namespace PlaygroundPages.Pages.Navigation
             InitializeComponent();
         }
 
-        private void GoToSecoundPage(object sender, EventArgs args)
+        private void OpenSecoundPage(object sender, EventArgs args)
         {
             Navigation.PushAsync(new SecoundPage());
         }
@@ -25,6 +25,11 @@ namespace PlaygroundPages.Pages.Navigation
         private void OpenModal(object sender, EventArgs args)
         {
             Navigation.PushModalAsync(new Modal());
+        }
+
+        private void OpenMasterDetail(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new Master.Master();
         }
     }
 }
