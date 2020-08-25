@@ -4,9 +4,9 @@
              x:Class="PlaygroundPages.Pages.Navigation.FirstPage"
              Title="I'm a title First Page">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Alterar Senha" />
-        <ToolbarItem Text="Configurações" />
-        <ToolbarItem Text="Mais Opções" />
+        <ToolbarItem Text="Alterar Senha" Order="Secondary" Priority="0" />
+        <ToolbarItem Text="Configurações" Order="Secondary" Priority="1" />
+        <ToolbarItem Text="Mais Opções" Order="Secondary" Priority="2" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
@@ -15,6 +15,7 @@
                 HorizontalOptions="CenterAndExpand" />
 
             <Button Text="Go to the Secound Page" Clicked="GoToSecoundPage" />
+            <Button Text="Open a Modal" Clicked="OpenModal" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +16,11 @@ namespace PlaygroundPages.Pages.Navigation
         public Modal()
         {
             InitializeComponent();
+        }
+
+        private void CloseModal(object sender, EventArgs args)
+        {
+            Navigation.PopModalAsync();
         }
     }
 }

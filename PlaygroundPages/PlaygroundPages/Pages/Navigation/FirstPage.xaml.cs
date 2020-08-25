@@ -19,7 +19,12 @@ namespace PlaygroundPages.Pages.Navigation
 
         private void GoToSecoundPage(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new SecoundPage()); 
+            Navigation.PushAsync(new SecoundPage());
+        }
+
+        private void OpenModal(object sender, EventArgs args)
+        {
+            Navigation.PushModalAsync(new Modal());
         }
     }
 }
