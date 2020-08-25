@@ -19,7 +19,8 @@ namespace PlaygroundPages.Pages.Carousel
 
         private void GoToFirstPage(object sender, EventArgs args)
         {
-            App.Current.MainPage = new NavigationPage(new Navigation.FirstPage());
+            //App.Current.MainPage = new NavigationPage(new Navigation.FirstPage());
+            App.Current.MainPage = new Tabbed.Tabs();
         }
     }
 }
